@@ -1,0 +1,2 @@
+# cookieClickerAutomation
+A JavaScript based cookie clicker automation script
