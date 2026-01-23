@@ -12,7 +12,7 @@ setInterval(Game.ClickCookie, 1); //clicking the cookie
 
 //console.log(Game.ObjectsById[0]); // gives all necessary infos about an upgrade
 
-setInterval(function () {
+setInterval(function () { //logic for automatically buying all affordable upgrades
     let unlockedObjects = document.getElementsByClassName("product unlocked enabled").length;  
     for (let i = 0; i < unlockedObjects; i++) {
         if (Game.ObjectsById[i].price < Game.cookies) {
